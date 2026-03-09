@@ -32,6 +32,17 @@ MANIFEST
 *.manifest
 *.spec
 
+# Data files
+data/
+*.parquet
+*.csv
+*.json
+
+
+# Spark checkpoints
+checkpoints/
+data/checkpoints/
+
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
